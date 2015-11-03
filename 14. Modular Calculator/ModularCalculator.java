@@ -5,26 +5,45 @@ public class ModularCalculator {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		String[] temp = sc.next().split(" ");
+		String input = "";
+		int total;
+		int result = 0;
+		int modulo;
 		
-		/*String input = "";
-		int i = 0;
-		while (sc.hasNext()) {
-			if (sc.next().equals("%")) {
-				input += Integer.toString(sc.nextInt());
+		while (true) {
+			String i = sc.next();
+			if (i.equals("%")) {
+				input += i + " ";
+				input += sc.next() + " ";
 				break;
 			}
+			input += i + " ";
+		}
+		
+		String[] values = input.split(" ");
+		
+		total = Integer.parseInt(values[0]);
+		modulo = Integer.parseInt(values[values.length -1 ]);
+		
+		for (int i = 0; i < values.length - 1; i++) {
+			int temp;
+			switch(values[i]) {
+			case "+":
+				temp = total + Integer.parseInt(values[i+1]);
+				total = temp % modulo;
+				break;
 			
-			input += sc.next() + " ";
-			i++;
+			case "*":
+				temp = total * Integer.parseInt(values[i+1]);
+				total = temp % modulo;
+				break;
+			
+			case "%":
+				result = total % Integer.parseInt(values[i+1]);
+				break;
+			}
 		}
 		
-		
-		String line[] = input.split(" ");*/
-		
-		for (int j = 0; j < temp.length; j++) {
-			System.out.println(temp[j]);
-		}
-		
+		System.out.println(result);
 	}
 }
