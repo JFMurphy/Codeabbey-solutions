@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P22_TwoPrinters {
+public class P022_TwoPrinters {
 
 	public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class P22_TwoPrinters {
 					p2Time += printer2;
 				}
 			}
-			
+
 			int result = p1Time > p2Time ? p1Time : p2Time;
 			System.out.print(result + " ");
 		}

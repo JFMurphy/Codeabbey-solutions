@@ -1,27 +1,22 @@
 import java.util.Scanner;
 
-public class P20_VowelCount 
-{
+public class P020_VowelCount {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int count = sc.nextInt();
 		sc.nextLine();
-		
+
 		String line;
-		//int vowelCount = 0;
-		
-		for (int i = 0; i < count; i++)
-		{
+		// int vowelCount = 0;
+
+		for (int i = 0; i < count; i++) {
 			int vowelCount = 0;
 			line = sc.nextLine();
 			int lineLength = line.length();
-			
-			for (int charIndex = 0; charIndex < lineLength; charIndex++)
-			{	
-				switch(line.charAt(charIndex))
-				{
+
+			for (int charIndex = 0; charIndex < lineLength; charIndex++) {
+				switch (line.charAt(charIndex)) {
 				case 'a':
 					vowelCount++;
 					break;
@@ -42,9 +37,11 @@ public class P20_VowelCount
 					break;
 				}
 			}
-			
+
 			System.out.print(vowelCount + " ");
 		}
+
+		sc.close();
 	}
 
 }

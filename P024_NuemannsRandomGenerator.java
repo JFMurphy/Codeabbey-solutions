@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class P24_NuemannsRandomGenerator {
+public class P024_NuemannsRandomGenerator {
 
 	public static void main(String[] args) {
 

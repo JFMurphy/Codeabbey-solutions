@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class P23_BubbleInArray {
+public class P023_BubbleInArray {
 
 	public static void main(String[] args) {
 
@@ -22,8 +22,6 @@ public class P23_BubbleInArray {
 			else
 				values.add(x);
 		}
-		
-		sc.close();
 
 		for (int i = 0; i < values.size() - 1; i++) {
 			int x = values.get(i);
@@ -45,6 +43,8 @@ public class P23_BubbleInArray {
 		}
 
 		System.out.println(swaps + " " + result);
+
+		sc.close();
 	}
 
 }
