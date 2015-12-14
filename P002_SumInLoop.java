@@ -1,3 +1,7 @@
+
+/*
+ * Adds numbers to an array then finds the sum of all values and finally prints out the result.
+ */
 import java.util.Scanner;
 
 public class P002_SumInLoop {

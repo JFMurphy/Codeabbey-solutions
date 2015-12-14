@@ -1,3 +1,7 @@
+
+/*
+ * Takes in two variables from scanner and adds them then prints out the result.
+ */
 import java.util.Scanner;
 
 public class P001_SumAB {

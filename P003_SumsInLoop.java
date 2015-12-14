@@ -1,3 +1,7 @@
+
+/*
+ * Adds numbers to two separate arrays and finds the sum of a pair of values taken from each array.
+ */
 import java.util.Scanner;
 
 public class P003_SumsInLoop {

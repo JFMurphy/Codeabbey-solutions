@@ -1,3 +1,7 @@
+
+/*
+ * Adds numbers to two arrays then finds the minimum of a pair and adds it to a third array and prints it.
+ */
 import java.util.Scanner;
 
 public class P004_MinOfTwo {
