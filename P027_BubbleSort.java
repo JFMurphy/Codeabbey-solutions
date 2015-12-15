@@ -12,33 +12,35 @@ public class P027_BubbleSort {
 		int passes = 0;
 		boolean flag = true;
 
+		// Adding values to array
 		for (int i = 0; i < count; i++) {
 			values[i] = sc.nextInt();
 		}
 
 		while (flag) {
 			flag = false;
-			
-			for (int i = 0; i < values.length-1; i++) {
-					
-				if (values[i] > values[i+1]) {
-					int t = values[i+1];
-					
-					values[i+1] = values[i];
+
+			for (int i = 0; i < values.length - 1; i++) {
+
+				if (values[i] > values[i + 1]) {
+					int t = values[i + 1];
+
+					values[i + 1] = values[i];
 					values[i] = t;
-					
+
 					swaps++;
 					flag = true;
 				}
 			}
 			passes++;
 		}
-		
-		for (int i = 0; i < values.length; i++) {
-			System.out.print(values[i] + " ");
-		}
+
+		/*
+		 * for (int i = 0; i < values.length; i++) { System.out.print(values[i]
+		 * + " "); }
+		 */
 		System.out.println("\n" + passes + " " + swaps);
-		
+
 		sc.close();
 	}
 
