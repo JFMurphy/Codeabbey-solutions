@@ -1,11 +1,8 @@
-count = int(raw_input())
-
-nums = raw_input.split(" ")
-nums = [int(i) for i in nums]
-
+count = raw_input().split()
+nums = raw_input().split()
 result = 0
 
 for num in nums:
-	result += num
+	result += int(num)
 	
 print result
