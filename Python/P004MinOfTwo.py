@@ -7,7 +7,8 @@ IF some_condition THEN
 ELSE
     do_other_thing
 ENDIF
-Depending on your programming language syntax could be different and else part is almost always optional. You can read more in wikipedia article on Conditional statements.
+Depending on your programming language syntax could be different and else part is almost always optional. 
+You can read more in wikipedia article on Conditional statements.
 
 Of two numbers, please, select one with minimum value. Here are several pairs of numbers for thorough testing.
 

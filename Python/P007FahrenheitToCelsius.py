@@ -3,9 +3,12 @@ This programming exercise is roughly the same as counting sums in loop, but it n
 
 Note: the problem Rounding explains the rounding algorithm which is used in this task.
 
-There are two widespread systems of measuring temperature - Celsius and Fahrenheit. First is quite popular in Europe and second is well in use in United States for example.
+There are two widespread systems of measuring temperature - Celsius and Fahrenheit.
+First is quite popular in Europe and second is well in use in United States for example.
 
-By Celsius scale water freezes at 0 degrees and boils at 100 degrees. By Fahrenheit water freezes at 32 degrees and boils at 212 degrees. You may learn more from wikipedia on Fahrenheit. Use these two points for conversion of other temperatures.
+By Celsius scale water freezes at 0 degrees and boils at 100 degrees.
+By Fahrenheit water freezes at 32 degrees and boils at 212 degrees. You may learn more from wikipedia on Fahrenheit.
+Use these two points for conversion of other temperatures.
 
 You are to write program to convert degrees of Fahrenheit to Celsius.
 
